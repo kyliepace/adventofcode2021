@@ -10,5 +10,5 @@ function load(filename): string{
 }
 
 function split(inputString: string): string[]{
-  return inputString.split('\n')
+  return inputString.trim().split('\n')
 }
